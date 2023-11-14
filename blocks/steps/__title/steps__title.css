@@ -1,0 +1,12 @@
+.steps__title {
+    font-size: 28px;
+    line-height: 38.64px;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .steps__title {
+        width: 562px;
+    }
+
+}

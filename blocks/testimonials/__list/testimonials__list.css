@@ -1,0 +1,11 @@
+.testimonials__list {
+    
+}
+
+@media screen and (min-width: 1440px) {
+
+    .testimonials__list {
+        display: flex;
+    }
+
+}

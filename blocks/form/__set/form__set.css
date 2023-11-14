@@ -1,0 +1,19 @@
+.form__set {
+    margin: 32px 0 0 0;
+    padding: 0;
+    border: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    padding-block-end: 0;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .form__set {
+        margin: 72px 0 0 0; 
+    }
+
+}

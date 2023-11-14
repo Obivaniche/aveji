@@ -1,0 +1,16 @@
+.main {
+    font-family: 'Roboto';
+    margin: 0 auto;
+    padding: 0 16px;
+    width: 375px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .main {
+        padding: 0 32px;
+        width: 1440px;
+    }
+
+}

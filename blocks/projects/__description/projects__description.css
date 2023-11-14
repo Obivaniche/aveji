@@ -1,0 +1,23 @@
+.projects__description {
+    width: 228px;
+    height: 44px;
+    background-color: rgba(33, 37, 41, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    padding: 0 12px;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .projects__description {
+        /* display: none; */
+        width: 406px;
+        height: 66px;
+        padding: 0 20px;
+    }
+
+}

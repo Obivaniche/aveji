@@ -1,0 +1,11 @@
+.projects__gallery {
+    margin: 20px 0 0 0;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .projects__gallery {
+        margin: 32px 0 0 0;
+    }
+
+}

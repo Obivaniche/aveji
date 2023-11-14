@@ -1,0 +1,14 @@
+.about__info {
+    list-style: none;
+    margin: 32px 0 0 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .about__info {
+        margin: 44px 0 0 135px;
+        width: 146px;
+    }
+
+}

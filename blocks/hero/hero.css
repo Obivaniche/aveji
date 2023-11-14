@@ -1,0 +1,13 @@
+.hero {
+    margin: 20px 0 0 0;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .hero {
+        position: relative;
+        margin: 40px 0 0 0;
+        display: flex;
+    }
+
+}

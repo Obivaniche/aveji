@@ -1,0 +1,14 @@
+.hero__subtitle {
+    margin: 20px 0 24px 0;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .hero__subtitle {
+        margin: 40px 0 0 0;
+        font-size: 20px !important;
+        line-height: 28px !important;
+        width: 445px;
+    }
+
+}

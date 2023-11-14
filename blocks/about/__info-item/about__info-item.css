@@ -1,0 +1,7 @@
+.about__info-item {
+    margin: 20px 0 0 0;
+}
+
+.about__info-item:first-of-type {
+    margin: 0;
+}

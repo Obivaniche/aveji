@@ -1,0 +1,12 @@
+.order {
+    margin: 48px 0 0 0;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .order {
+        margin: 120px 0 0 0;
+        display: flex;
+    }
+
+}

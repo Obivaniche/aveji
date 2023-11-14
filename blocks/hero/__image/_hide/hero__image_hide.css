@@ -1,0 +1,10 @@
+.hero__image_hide {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .hero__image_hide {
+        display: block;
+    }
+}

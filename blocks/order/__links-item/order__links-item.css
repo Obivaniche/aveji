@@ -1,0 +1,7 @@
+.order__links-item {
+    margin: 0 8px 0 0;
+}
+
+.order__links-item:last-of-type {
+    margin: 0;
+}

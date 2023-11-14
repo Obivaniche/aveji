@@ -1,0 +1,18 @@
+.order__image {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .order__image {
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 562px;
+        height: 566px;
+        display: block;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+}

@@ -1,0 +1,17 @@
+.footer__copy {
+    margin: 28px 0 0 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .footer__copy {
+        margin: 0;
+        text-align: left;
+    }
+
+}

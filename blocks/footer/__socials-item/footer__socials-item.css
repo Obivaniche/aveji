@@ -1,0 +1,8 @@
+.footer__socials-item {
+    margin: 0 40px 0 0;
+    padding: 0;
+}
+
+.footer__socials-item:last-of-type {
+    margin: 0;
+}

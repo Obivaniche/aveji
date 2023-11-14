@@ -1,0 +1,11 @@
+.form__subtitle {
+    margin: 20px 0 0 0;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .form__subtitle {
+        margin: 32px 0 0 0; 
+    }
+
+}

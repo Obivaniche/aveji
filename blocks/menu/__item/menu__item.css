@@ -1,0 +1,19 @@
+.menu__item {
+    margin: 0 0 22px 0;
+}
+
+.menu__item:last-of-type {
+    margin: 0;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .menu__item {
+        margin: 8px 0 0 0;
+    }
+
+    .menu__item:first-of-type {
+        margin: 0;
+    }
+
+}

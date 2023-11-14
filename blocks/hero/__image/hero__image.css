@@ -1,0 +1,20 @@
+.hero__image {
+    display: block;
+    margin: 25px auto 0 auto;
+    padding: 0;
+    width: 343px;
+    height: 261px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .hero__image {
+        width: 678px;
+        height: 809px;
+        left: 0;
+        margin: 298px 0 0 -97px;
+    }
+
+}

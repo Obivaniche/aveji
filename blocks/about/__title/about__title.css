@@ -1,0 +1,15 @@
+.about__title {
+    font-family: 'Helvetica';
+    font-size: 28px;
+    line-height: 38.64px;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .about__title {
+        width: 562px;
+    }
+
+}

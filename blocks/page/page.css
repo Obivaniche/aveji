@@ -1,0 +1,30 @@
+h1, h2, h3, h4, h5, h6 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: 400;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: 400;
+}
+
+.page {
+    width: 375px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    color: #212529;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .page {
+        width: 1440px;
+    }
+
+}

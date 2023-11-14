@@ -1,0 +1,17 @@
+.projects__arrow {
+    width: 13px;
+    height: 13px;
+    background-image: url(../../../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .projects__arrow:hover {
+        cursor: pointer;
+        transform: scale(1.4);
+        transition: all .4s ease;
+    }
+
+}

@@ -1,0 +1,12 @@
+.footer__slicer {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .footer__slicer {
+        margin: 0 10px 0 10px;
+        display: block;
+    }
+
+}

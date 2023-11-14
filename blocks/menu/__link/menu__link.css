@@ -1,0 +1,17 @@
+.menu__link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 24px;
+    line-height: 26.84px;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .menu__link {
+        color: #212529;
+        font-size: 18px;
+        line-height: 21.09px;
+    }
+
+}

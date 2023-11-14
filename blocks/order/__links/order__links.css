@@ -1,0 +1,15 @@
+.order__links {
+    list-style: none;
+    margin: 28px 0 0 0;
+    padding: 0;
+    display: flex;
+    height: 36px;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .order__links {
+        margin: 40px 0 0 0; 
+    }
+
+}

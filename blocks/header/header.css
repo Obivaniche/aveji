@@ -1,0 +1,16 @@
+.header {
+    width: 343px;
+    height: 41px;
+    margin: 8px 16px 0 16px;
+    display: flex;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .header {
+        width: 1376px;
+        height: 108px;
+        margin: 12px 32px 0 32px;
+    }
+
+}

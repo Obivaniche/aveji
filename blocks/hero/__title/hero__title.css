@@ -1,0 +1,17 @@
+.hero__title {
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .hero__title {
+        font-size: 72px !important;
+        line-height: 86.4px !important;
+        width: 794px;
+    }
+
+}

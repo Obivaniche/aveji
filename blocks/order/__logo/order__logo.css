@@ -1,0 +1,9 @@
+.order__logo {
+    margin: 0;
+    padding: 0;
+    width: 121px;
+    height: 36px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}

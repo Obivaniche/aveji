@@ -1,0 +1,23 @@
+.steps__article {
+    margin: 20px 0 0 0;
+    border-bottom: 1px solid #000000;
+}
+
+.steps__article:first-of-type {
+    margin: 28px 0 0 0;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .steps__article {
+        display: flex;
+        justify-content: space-between;
+        margin: 24px 0 0 135px;
+        width: 678px;
+    }
+
+    .steps__article:first-of-type {
+        margin: 44px 0 0 135px;
+    }
+
+}

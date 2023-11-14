@@ -1,0 +1,22 @@
+.about__description {
+    margin: 16px 0 0 0;
+    padding: 0;
+}
+
+.about__description:first-of-type {
+    margin: 20px 0 0 0;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .about__description {
+        margin: 16px 0 0 135px;
+        width: 446px;
+        line-height: 22.4px;
+    }
+
+    .about__description:first-of-type {
+        margin: 16px 0 0 135px;
+    }
+
+}

@@ -1,0 +1,18 @@
+.projects__image {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 252px;
+    height: 328px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .projects__image {
+        width: 446px;
+        height: 580px;
+    }
+
+}

@@ -1,0 +1,16 @@
+.title {
+    font-family: 'Helvetica';
+    font-size: 28px;
+    line-height: 38.64px;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .title {
+        font-size: 48px;
+        line-height: normal;
+    }
+
+}

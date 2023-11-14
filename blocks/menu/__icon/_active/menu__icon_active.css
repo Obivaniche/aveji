@@ -1,0 +1,25 @@
+.menu__icon_active {
+
+}
+
+.menu__icon_active span,
+.menu__icon_active::before,
+.menu__icon_active::after {
+    background-color: #FFFFFF;
+}
+
+.menu__icon_active span {
+    transform: scale(0) translate(0px, -50%);
+}
+
+.menu__icon_active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+
+.menu__icon_active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+    width: 24px;
+    margin-left: 0;
+}

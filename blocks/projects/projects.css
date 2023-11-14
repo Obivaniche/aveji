@@ -1,0 +1,11 @@
+.projects {
+    margin: 48px 0 0 0;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .projects {
+        margin: 120px 0 0 0;
+    }
+
+}

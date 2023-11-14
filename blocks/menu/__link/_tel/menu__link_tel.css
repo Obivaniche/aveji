@@ -1,0 +1,10 @@
+@media screen and (min-width: 1440px) {
+
+    .menu__link_tel {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 140px;
+    }
+
+}
