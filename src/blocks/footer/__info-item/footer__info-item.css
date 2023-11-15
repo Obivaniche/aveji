@@ -1,0 +1,28 @@
+.footer__info-item {
+    margin: 0 0 8px 0;
+}
+
+.footer__info-item:last-of-type {
+    margin: 0;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .footer__info-item {
+        margin: 0;
+    }
+
+    @media screen and (min-width: 1440px) {
+
+        .footer__info-item:hover {
+            transform: scale(1.2) translate(-15px, 0);
+            transition: all .4s ease;
+        }
+
+        .footer__info-item:last-of-type:hover {
+            transform: scale(1.2) translate(5px, 0);
+        }
+    
+    }
+
+}

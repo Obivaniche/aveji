@@ -1,0 +1,32 @@
+.scroll-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    display: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    background-color: #DDD7C0;
+    background-image: url(../../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 32px;
+    opacity: 0.75;
+    z-index: 1;
+    transform: rotate(-45deg);
+}
+
+@media screen and (min-width: 1440px) {
+
+    .scroll-button {
+        transform: rotate(0deg);
+    }
+
+    .scroll-button:hover {
+        transition: all .4s ease;
+        transform: scale(1.2) rotate(-45deg);
+        background-color: #CBC6B2;
+      }
+}

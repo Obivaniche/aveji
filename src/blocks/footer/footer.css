@@ -1,0 +1,15 @@
+.footer {
+    margin: 60px auto 20px auto;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .footer {
+        margin: 120px 0 16px 0; 
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+}

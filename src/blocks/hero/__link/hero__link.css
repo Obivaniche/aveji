@@ -1,0 +1,23 @@
+.hero__link {
+    font-size: 18px;
+    line-height: 21.09px;
+    text-transform: uppercase;
+    color: #212529;
+    text-decoration: none;
+    border-bottom: 1px solid #212529;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .hero__link {
+        position: absolute;
+        top: 235px;
+        right: 0;
+    }
+
+    .hero__link:hover {
+        transform: scale(1.2);
+        transition: all .4s ease;
+    }
+
+}
