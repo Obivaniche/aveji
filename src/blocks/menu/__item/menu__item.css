@@ -1,5 +1,6 @@
 .menu__item {
     margin: 0 0 22px 0;
+    transition: all .4s linear;
 }
 
 .menu__item:last-of-type {
@@ -10,7 +11,6 @@
 
     .menu__item:hover {
         transform: scale(1.2);
-        transition: all .4s ease;
     }
 
 

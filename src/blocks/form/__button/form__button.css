@@ -10,6 +10,7 @@
     line-height: 22.4px;
     font-family: 'Roboto';
     cursor: pointer;
+    transition: all .4s linear;
 }
 
 @media screen and (min-width: 1440px) {
@@ -21,7 +22,6 @@
     .form__button:hover {
         background-color: #212529;
         color: #FFFFFF;
-        transition: all .4s ease;
     }
 
 }

@@ -16,6 +16,7 @@
     opacity: 0.75;
     z-index: 1;
     transform: rotate(-45deg);
+    transition: transform .4s linear;
 }
 
 @media screen and (min-width: 1440px) {
@@ -25,7 +26,6 @@
     }
 
     .scroll-button:hover {
-        transition: all .4s ease;
         transform: scale(1.2) rotate(-45deg);
         background-color: #CBC6B2;
       }

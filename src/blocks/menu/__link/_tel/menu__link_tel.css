@@ -5,11 +5,11 @@
         font-size: 18px;
         line-height: 21.09px;
         height: 21.09px;
+        transition: all .4s linear;
     }
 
     .menu__link_tel:hover {
         transform: scale(1.2);
-        transition: all .4s ease;
     }
 
 }

@@ -101,7 +101,7 @@ scrollButton.addEventListener('click', scrollUp);
 function trackScroll() {
     const scroll = window.scrollY;
     const height = document.documentElement.clientHeight;
-    if (scroll > height) {
+    if (scroll > height / 2) {
         scrollButton.classList.add('scroll-button_active');
     } else {
         scrollButton.classList.remove('scroll-button_active');
